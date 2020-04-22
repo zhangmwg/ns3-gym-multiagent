@@ -1,11 +1,22 @@
 # ns3-gym for multi-agent
-
-## How
+* by ZhangminWang
+## How (Python)
 ```python
 from ns3gym import ns3_multiagent_env as ns3env
 ```
 
-* by ZhangminWang
+## How (ns-3)
+```C++
+///\{ Each agent OpenGym Env 
+  virtual Ptr<OpenGymSpace> GetActionSpace(uint32_t agent_id) = 0;
+  virtual Ptr<OpenGymSpace> GetObservationSpace(uint32_t agent_id) = 0;
+  virtual Ptr<OpenGymDataContainer> GetObservation(uint32_t agent_id) = 0;
+  virtual float GetReward(uint32_t agent_id) = 0;
+  virtual bool GetDone(uint32_t agent_id) = 0;
+  virtual std::string GetInfo(uint32_t agent_id) = 0;
+  virtual bool ExecuteActions(uint32_t agent_id, Ptr<OpenGymDataContainer> action) = 0;
+  ///\}
+```
 
 ns3-gym
 ============

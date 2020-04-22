@@ -1,5 +1,16 @@
 # ns3-gym for multi-agent
 * by ZhangminWang
+
+MultiEnv is an extension of NS3Env, so that the nodes in the network can be completely regarded as independent agents, which have their own states, observations, and rewards. 
+
+NOTE: We formalize the network problem as a multi-agent extension Markov decision processes (MDPs) called Partially Observable Markov Games (POMGs).
+
+**Why we use a multi-agent environment?**
+
+**Fully-distributed learning:** Algorithms with centralized learning process are not applicable in the real computer network. The centralized learning controller is usually unable to gather collected environment transitions from widely distributed routers once an action is executed somewhere and to update the parameters of each neural network simultaneously caused by the limited bandwidth. [FROM: You, Xinyu, et al. "Toward Packet Routing with Fully-distributed Multi-agent Deep Reinforcement Learning." arXiv preprint arXiv:1905.03494 (2019).]
+
+Code Reference: Lowe R, Wu Y, Tamar A, et al. Multi-agent actor-critic for mixed cooperative-competitive environments[C]//Advances in neural information processing systems. 2017: 6379-6390. https://github.com/openai/multiagent-particle-envs
+
 ## How (Python)
 ```python
 from ns3gym import ns3_multiagent_env as ns3env

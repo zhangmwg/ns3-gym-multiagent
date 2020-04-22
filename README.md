@@ -1,7 +1,9 @@
 # ns3-gym for multi-agent
 
 ## How
+```python
 from ns3gym import ns3_multiagent_env as ns3env
+```
 
 * by ZhangminWang
 

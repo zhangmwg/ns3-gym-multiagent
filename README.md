@@ -1,5 +1,4 @@
 # ns3-gym for multi-agent
-* by ZhangminWang
 
 MultiEnv is an extension of NS3Env, so that the nodes in the network can be completely regarded as independent agents, which have their own states, observations, and rewards. 
 

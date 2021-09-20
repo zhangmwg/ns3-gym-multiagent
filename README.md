@@ -31,7 +31,7 @@ from ns3gym import ns3_multiagent_env as ns3env
 ns3-gym
 ============
 
-[OpenAI Gym](https://gym.openai.com/) is a toolkit for reinforcement learning (RL) widely used in research. The network simulator [ns-3](https://www.nsnam.org/) is the de-facto standard for academic and industry studies in the areas of networking protocols and communication technologies. ns3-gym is a framework that integrates both OpenAI Gym and ns-3 in order to encourage usage of RL in networking research.
+[OpenAI Gym](https://gym.openai.com/) is a toolkit for reinforcement learning (RL) widely used in research. The network simulator [ns-3](https://www.nsnam.org/) is the de-facto standard for academic and industry studies in the areas of networking protocols and communication technologies. [ns3-gym](https://github.com/tkn-tub/ns3-gym) is a framework that integrates both OpenAI Gym and ns-3 in order to encourage usage of RL in networking research.
 
 Installation
 ============

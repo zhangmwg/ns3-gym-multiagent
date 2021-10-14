@@ -27,6 +27,16 @@ from ns3gym import ns3_multiagent_env as ns3env
   virtual bool ExecuteActions(uint32_t agent_id, Ptr<OpenGymDataContainer> action) = 0;
   ///\}
 ```
+## Example 
+### multi-agent example 1
+This example shows how to create an ns3-gym environment with multiple agents in one Python processes. Similar to the 
+[multiagent-particle-envs](https://github.com/openai/multiagent-particle-envs)
+
+[multi-agent example 1](https://github.com/zhangmwg/ns3-gym-multiagent/tree/master/examples/multigym)
+
+### multi-agent example 2
+This example shows how to create an ns3-gym environment with multiple agents and connects them to multiple independent Python processes.
+[multi-agent example 2](https://github.com/zhangmwg/ns3-gym-multiagent/tree/master/examples/multi-agent)
 
 ns3-gym
 ============

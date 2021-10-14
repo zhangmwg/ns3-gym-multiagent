@@ -36,6 +36,7 @@ This example shows how to create an ns3-gym environment with multiple agents in 
 
 ### multi-agent example 2
 This example shows how to create an ns3-gym environment with multiple agents and connects them to multiple independent Python processes.
+
 [multi-agent example 2](https://github.com/zhangmwg/ns3-gym-multiagent/tree/master/examples/multi-agent)
 
 ns3-gym

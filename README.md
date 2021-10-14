@@ -1,6 +1,6 @@
 # ns3-gym for multi-agent
 
-MultiEnv is an extension of NS3Env, so that the nodes in the network can be completely regarded as independent agents, which have their own states, observations, and rewards. 
+MultiEnv is an extension of [ns3-gym](https://github.com/tkn-tub/ns3-gym), so that the nodes in the network can be completely regarded as independent agents, which have their own states, observations, and rewards. 
 
 NOTE: We formalize the network problem as a multi-agent extension Markov decision processes (MDPs) called Partially Observable Markov Games (POMGs).
 

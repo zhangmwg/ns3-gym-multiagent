@@ -1,5 +1,9 @@
 # ns3-gym for multi-agent
 
+**Deprecated, this is outdated and no longer being updated.**
+
+- Possible applicable versions: ns-3.28
+
 MultiEnv is an extension of [ns3-gym](https://github.com/tkn-tub/ns3-gym), so that the nodes in the network can be completely regarded as independent agents, which have their own states, observations, and rewards. 
 
 NOTE: We formalize the network problem as a multi-agent extension Markov decision processes (MDPs) called Partially Observable Markov Games (POMGs).
@@ -46,33 +50,5 @@ ns3-gym
 
 Installation
 ============
+reference: https://github.com/tkn-tub/ns3-gym
 
-https://github.com/tkn-tub/ns3-gym
-
-How to reference ns3-gym?
-============
-
-Please use the following bibtex :
-
-```
-@inproceedings{ns3gym,
-  Title = {{ns-3 meets OpenAI Gym: The Playground for Machine Learning in Networking Research}},
-  Author = {Gaw{\l}owicz, Piotr and Zubow, Anatolij},
-  Booktitle = {{ACM International Conference on Modeling, Analysis and Simulation of Wireless and Mobile Systems (MSWiM)}},
-  Year = {2019},
-  Location = {Miami Beach, USA},
-  Month = {November},
-  Url = {http://www.tkn.tu-berlin.de/fileadmin/fg112/Papers/2019/gawlowicz19_mswim.pdf}
-}
-```
-
-```
-@article{ns3gym,
-  author    = {Gawlowicz, Piotr and Zubow, Anatolij},
-  title     = {{ns3-gym: Extending OpenAI Gym for Networking Research}},
-  journal   = {CoRR},
-  year      = {2018},
-  url       = {https://arxiv.org/abs/1810.03943},
-  archivePrefix = {arXiv},
-}
-```
